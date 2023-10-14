@@ -1,5 +1,7 @@
 <?php
 
+header('X-Frame-Options: DENY');
+
 include 'config.php';
 session_start();
 
